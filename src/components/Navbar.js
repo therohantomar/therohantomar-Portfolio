@@ -5,7 +5,7 @@ import { MdSunny } from "react-icons/md";
 import { PiMoonFill } from "react-icons/pi";
 import { useEffect, useState } from "react";
 import useDefaultTheme from "../utils/hooks/useDefaultMode"
-import developer from "../logo.svg"
+
 
 export default function Navbar() {
   const defaultTheme=useDefaultTheme()
@@ -54,7 +54,7 @@ export default function Navbar() {
           />
         )}
         <h1 className={`font-ubuntu cursor-pointer text-gray-700 flex font-bold dark:text-white  text-2xl`}>
-           <a href={developer} download>RESUME</a>
+           <a href="ana" download>RESUME</a>
         </h1>
       </span>
     </div>

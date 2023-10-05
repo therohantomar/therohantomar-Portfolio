@@ -12,14 +12,11 @@ const Projects = () => {
           My Projects
         </h1>
       </span>
-      <span className="mt-52 w-full gap-10 h-max flex  flex-wrap">
-      {projects.map((project)=>{
-      
-        return(  <Project key={project.id} {...project}/>)
-
-      })}
-
-       </span>
+      <span className="mt-52 w-full gap-10 h-max flex  flex-wrap items-center xl:justify-normal 2xl:justify-normal lg:justify-center  md:justify-center sm:justify-center xs:justify-center">
+        {projects.map((project) => {
+          return <Project key={project.id} {...project} />;
+        })}
+      </span>
     </div>
   );
 };

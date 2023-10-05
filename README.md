@@ -1,6 +1,6 @@
 # Portfolio React App - therohantomar.vercel.app
 
-![allin1store Screenshot](https://res.cloudinary.com/rohanss/image/upload/v1696516779/Screenshot_20231005_200910_fqboze.png)
+![Portfolio Screenshot](https://res.cloudinary.com/rohanss/image/upload/v1696516351/porfolio.png)
 
 This is my portfolio React app developed using ReactJS, Tailwind CSS, DaisyUI, custom hooks, and React Icons with emojis. It showcases my skills, projects, and experience in a visually appealing and interactive manner.
 

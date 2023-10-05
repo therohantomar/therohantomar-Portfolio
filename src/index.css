@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+@font-face {
+  font-family: "martian";
+  src: url("./assests/fonts/MartianMono-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+  font-family: "nunito";
+  src: url("./assests/fonts/NunitoSans_7pt_Condensed-Regular.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "crimson";
+  src: url("./assests/fonts/CrimsonText-Regular.ttf");
+}
+
+@font-face {
+  font-family: "titillium";
+  src: url("./assests/fonts/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("./assests/fonts/Ubuntu-Regular.ttf");
+}
+
+.scrollbar-hide::-webkit-scrollbar{
+  display: none;
+  overflow: -moz-scrollbars-none;
 }

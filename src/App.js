@@ -1,16 +1,14 @@
-
-import './App.css';
-import logos from "./assests/images/Frame(1).png"
-import reactlogo from "./assests/images/reactlogo.png"
-
+import Navbar from './components/Navbar';
+import Intro from './components/Intro';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <img src={reactlogo} className='App-logo' alt="logo"/>
-        <img src={logos}  alt="logo" />
-       
-      </header>
+    <div className="h-screen flex dark:bg-neutral-900 bg-white flex-col items-center w-full">
+      <Navbar />
+      <Intro/>
+      <Skills/>
+      <Projects/>
     </div>
   );
 }

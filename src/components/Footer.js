@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 w-full text-white py-8">
       <div className="container mx-auto px-4 flex flex-col justify-between items-center h-full">
-        <div className="flex flex-wrap justify-between gap-40 mb-8">
+        <div className="flex flex-wrap justify-between   w-full mb-8">
           <div className="flex items-center ">
             <a href="https://github.com/therohantomar" target="_blank" rel="noopener noreferrer" className="mr-4">
               <FaGithub className="text-xl" />

@@ -4,21 +4,21 @@ import { FaGithub, FaNpm, FaStackOverflow, FaPhone, FaWhatsapp, FaEnvelope } fro
 const Footer = () => {
   return (
     <footer className="bg-gray-900 w-full text-white py-8">
-      <div className="container mx-auto px-4 flex flex-col justify-between h-full">
-        <div className="flex flex-wrap justify-between items-center mb-8">
-          <div className="flex items-center mb-4">
-            <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer" className="mr-4">
+      <div className="container mx-auto px-4 flex flex-col justify-between items-center h-full">
+        <div className="flex flex-wrap justify-between gap-40 mb-8">
+          <div className="flex items-center ">
+            <a href="https://github.com/therohantomar" target="_blank" rel="noopener noreferrer" className="mr-4">
               <FaGithub className="text-xl" />
             </a>
-            <a href="https://www.npmjs.com/~your-npm-username" target="_blank" rel="noopener noreferrer" className="mr-4">
+            <a href="https://www.npmjs.com/~therohantomar" target="_blank" rel="noopener noreferrer" className="mr-4">
               <FaNpm className="text-xl" />
             </a>
-            <a href="https://stackoverflow.com/users/your-stackoverflow-profile" target="_blank" rel="noopener noreferrer">
+            <a href="https://stackoverflow.com/users/16948601/rohan-tomar" target="_blank" rel="noopener noreferrer">
               <FaStackOverflow className="text-xl" />
             </a>
           </div>
           
-          <div className="flex items-center mt-4 md:mt-0">
+          <div className="flex items-center  md:mt-0">
             <a href="tel:+918291774460" className="mr-4">
               <FaPhone className="text-xl" />
             </a>

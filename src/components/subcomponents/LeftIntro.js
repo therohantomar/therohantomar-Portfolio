@@ -2,8 +2,18 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { IoLogoJavascript } from "react-icons/io5";
-import {BiLogoReact, BiLogoTailwindCss, BiLogoHtml5, BiLogoCss3} from "react-icons/bi"
+import {
+  BiLogoReact,
+  BiLogoTailwindCss,
+  BiLogoHtml5,
+  BiLogoCss3,
+} from "react-icons/bi";
+import { useContext } from "react";
+import {popupContext} from "../../App"
+
 const LeftIntro = () => {
+  const setpopup=useContext(popupContext)
+  console.log(setpopup)
   return (
     <motion.div
       initial={{ translateX: -500 }}
@@ -45,10 +55,15 @@ const LeftIntro = () => {
             <BiLogoTailwindCss className="text-blue-400 animate-pulse text-3xl" />
             <BiLogoHtml5 className="text-orange-500 animate-pulse text-3xl" />
             <BiLogoCss3 className="text-blue-600 animate-pulse text-3xl" />
-
           </span>
         </span>
-        <button className="font-intro w-30 my-2 hover:bg-orange-400 py-2 bg-orange-500 text-white font-bold">HIRE ME</button>
+        {/* Open the modal using document.getElementById('ID').showModal() method */}
+        <button
+          className="text-white bg-orange-500 hover:bg-orange-400 py-2   "
+          onClick={() =>setpopup(true)}
+        >
+          Hire Me
+        </button>
       </span>
     </motion.div>
   );

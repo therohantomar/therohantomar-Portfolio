@@ -20,7 +20,7 @@ export default function Navbar() {
   }, [theme]);
 
   return (
-    <div
+    <nav
       className={`w-full flex dark:bg-neutral-900  dark:shadow-xl items-center justify-around  border-2 dark:border-0 p-6   h-20 `}
     >
       <motion.div
@@ -57,6 +57,6 @@ export default function Navbar() {
            <a href="ana" download>RESUME</a>
         </h1>
       </span>
-    </div>
+    </nav>
   );
 }

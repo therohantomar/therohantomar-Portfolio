@@ -135,6 +135,7 @@ export const projects = [
   { id: 1, title: "Youtube", link: "https://youtube-therohantomar.vercel.app" },
   { id: 2, title: "allin1store", link: "https://allin1store.vercel.app" },
   { id: 3, title: "getyourpairs", link: "https://getyourpairs.vercel.app" },
+  {id:4, title:"photosUp",link:"https://photosup.vercel.app"},
   {
     id: 4,
     title: "todlistApp",

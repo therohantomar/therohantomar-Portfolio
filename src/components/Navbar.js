@@ -5,6 +5,9 @@ import { MdSunny } from "react-icons/md";
 import { PiMoonFill } from "react-icons/pi";
 import { useEffect, useState } from "react";
 import useDefaultTheme from "../utils/hooks/useDefaultMode"
+import Resume from "../assests/images/Rohan_Tomar_Resume_19-10-2023-15-32-37.pdf"
+import { MdDownload } from "react-icons/md";
+
 
 
 export default function Navbar() {
@@ -54,7 +57,7 @@ export default function Navbar() {
           />
         )}
         <h1 className={`font-ubuntu cursor-pointer text-gray-700 flex font-bold dark:text-white  text-2xl`}>
-           <a href="ana" download>RESUME</a>
+           <a href={Resume} className="inline-flex items-center gap-2 hover:text-gray-300 " download>RESUME <MdDownload/></a>
         </h1>
       </span>
     </nav>
